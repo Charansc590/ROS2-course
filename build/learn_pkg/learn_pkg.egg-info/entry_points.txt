@@ -1,0 +1,5 @@
+[console_scripts]
+simple_pub_py = learn_pkg.my_first_node:main
+simple_sub_py = learn_pkg.my_first_sub:main
+turtlesim_teleop = learn_pkg.turtlesim_teleop:main
+

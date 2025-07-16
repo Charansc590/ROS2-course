@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing learn_pkg.egg-info/PKG-INFO
+writing dependency_links to learn_pkg.egg-info/dependency_links.txt
+writing entry points to learn_pkg.egg-info/entry_points.txt
+writing requirements to learn_pkg.egg-info/requires.txt
+writing top-level names to learn_pkg.egg-info/top_level.txt
+reading manifest file 'learn_pkg.egg-info/SOURCES.txt'
+writing manifest file 'learn_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/charansc/ros2_ws/install/learn_pkg/lib/python3.10/site-packages/learn-pkg.egg-link (link to .)
+Installing simple_pub_py script to /home/charansc/ros2_ws/install/learn_pkg/lib/learn_pkg
+
+Installed /home/charansc/ros2_ws/build/learn_pkg
+running symlink_data

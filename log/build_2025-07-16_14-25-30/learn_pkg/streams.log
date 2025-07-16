@@ -1,0 +1,24 @@
+[0.530s] Invoking command in '/home/charansc/ros2_ws/build/learn_pkg': PYTHONPATH=/home/charansc/ros2_ws/build/learn_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws/install/learn_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/charansc/ros2_ws/build/learn_pkg/build --no-deps symlink_data
+[0.687s] running develop
+[0.774s] running egg_info
+[0.774s] creating learn_pkg.egg-info
+[0.774s] writing learn_pkg.egg-info/PKG-INFO
+[0.775s] writing dependency_links to learn_pkg.egg-info/dependency_links.txt
+[0.775s] writing entry points to learn_pkg.egg-info/entry_points.txt
+[0.775s] writing requirements to learn_pkg.egg-info/requires.txt
+[0.775s] writing top-level names to learn_pkg.egg-info/top_level.txt
+[0.775s] writing manifest file 'learn_pkg.egg-info/SOURCES.txt'
+[0.776s] reading manifest file 'learn_pkg.egg-info/SOURCES.txt'
+[0.776s] writing manifest file 'learn_pkg.egg-info/SOURCES.txt'
+[0.777s] running build_ext
+[0.777s] Creating /home/charansc/ros2_ws/install/learn_pkg/lib/python3.10/site-packages/learn-pkg.egg-link (link to .)
+[0.777s] Installing simple_pub_py script to /home/charansc/ros2_ws/install/learn_pkg/lib/learn_pkg
+[0.778s] 
+[0.778s] Installed /home/charansc/ros2_ws/build/learn_pkg
+[0.778s] running symlink_data
+[0.778s] creating /home/charansc/ros2_ws/install/learn_pkg/share/ament_index
+[0.778s] creating /home/charansc/ros2_ws/install/learn_pkg/share/ament_index/resource_index
+[0.778s] creating /home/charansc/ros2_ws/install/learn_pkg/share/ament_index/resource_index/packages
+[0.778s] symbolically linking /home/charansc/ros2_ws/build/learn_pkg/resource/learn_pkg -> /home/charansc/ros2_ws/install/learn_pkg/share/ament_index/resource_index/packages
+[0.778s] symbolically linking /home/charansc/ros2_ws/build/learn_pkg/package.xml -> /home/charansc/ros2_ws/install/learn_pkg/share/learn_pkg
+[0.796s] Invoked command in '/home/charansc/ros2_ws/build/learn_pkg' returned '0': PYTHONPATH=/home/charansc/ros2_ws/build/learn_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws/install/learn_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/charansc/ros2_ws/build/learn_pkg/build --no-deps symlink_data
