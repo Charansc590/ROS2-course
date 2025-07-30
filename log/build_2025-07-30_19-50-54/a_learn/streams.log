@@ -1,0 +1,40 @@
+[0.449s] Invoking command in '/home/charansc/ros2_ws2/build/a_learn': PYTHONPATH=/home/charansc/ros2_ws2/build/a_learn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/charansc/ros2_ws2/build/a_learn/build
+[0.617s] running develop
+[0.714s] Removing /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a-learn.egg-link (link to .)
+[0.735s] Invoked command in '/home/charansc/ros2_ws2/build/a_learn' returned '0': PYTHONPATH=/home/charansc/ros2_ws2/build/a_learn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/charansc/ros2_ws2/build/a_learn/build
+[0.737s] Invoking command in '/home/charansc/ros2_ws2/src/a_learn': PYTHONPATH=/home/charansc/ros2_ws2/build/a_learn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/a_learn build --build-base /home/charansc/ros2_ws2/build/a_learn/build install --record /home/charansc/ros2_ws2/build/a_learn/install.log --single-version-externally-managed install_data --force
+[0.894s] running egg_info
+[0.895s] writing ../../build/a_learn/a_learn.egg-info/PKG-INFO
+[0.895s] writing dependency_links to ../../build/a_learn/a_learn.egg-info/dependency_links.txt
+[0.895s] writing entry points to ../../build/a_learn/a_learn.egg-info/entry_points.txt
+[0.895s] writing requirements to ../../build/a_learn/a_learn.egg-info/requires.txt
+[0.895s] writing top-level names to ../../build/a_learn/a_learn.egg-info/top_level.txt
+[0.896s] reading manifest file '../../build/a_learn/a_learn.egg-info/SOURCES.txt'
+[0.896s] writing manifest file '../../build/a_learn/a_learn.egg-info/SOURCES.txt'
+[0.896s] running build
+[0.896s] running build_py
+[0.897s] running install
+[0.897s] running install_lib
+[0.897s] creating /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn
+[0.897s] copying /home/charansc/ros2_ws2/build/a_learn/build/lib/a_learn/service_test_add.py -> /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn
+[0.897s] copying /home/charansc/ros2_ws2/build/a_learn/build/lib/a_learn/add_service_client.py -> /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn
+[0.897s] copying /home/charansc/ros2_ws2/build/a_learn/build/lib/a_learn/para_node.py -> /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn
+[0.897s] copying /home/charansc/ros2_ws2/build/a_learn/build/lib/a_learn/__init__.py -> /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn
+[0.898s] byte-compiling /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn/service_test_add.py to service_test_add.cpython-310.pyc
+[0.898s] byte-compiling /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn/add_service_client.py to add_service_client.cpython-310.pyc
+[0.898s] byte-compiling /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn/para_node.py to para_node.cpython-310.pyc
+[0.898s] byte-compiling /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn/__init__.py to __init__.cpython-310.pyc
+[0.898s] running install_data
+[0.899s] copying resource/a_learn -> /home/charansc/ros2_ws2/install/a_learn/share/ament_index/resource_index/packages
+[0.899s] copying package.xml -> /home/charansc/ros2_ws2/install/a_learn/share/a_learn
+[0.899s] running install_egg_info
+[0.900s] Copying ../../build/a_learn/a_learn.egg-info to /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a_learn-0.0.0-py3.10.egg-info
+[0.900s] running install_scripts
+[0.914s] Installing para_test script to /home/charansc/ros2_ws2/install/a_learn/lib/a_learn
+[0.914s] Installing pub_node script to /home/charansc/ros2_ws2/install/a_learn/lib/a_learn
+[0.914s] Installing service_add script to /home/charansc/ros2_ws2/install/a_learn/lib/a_learn
+[0.914s] Installing service_client script to /home/charansc/ros2_ws2/install/a_learn/lib/a_learn
+[0.914s] Installing sub_node script to /home/charansc/ros2_ws2/install/a_learn/lib/a_learn
+[0.914s] Installing turtlesim_teleop script to /home/charansc/ros2_ws2/install/a_learn/lib/a_learn
+[0.914s] writing list of installed files to '/home/charansc/ros2_ws2/build/a_learn/install.log'
+[0.931s] Invoked command in '/home/charansc/ros2_ws2/src/a_learn' returned '0': PYTHONPATH=/home/charansc/ros2_ws2/build/a_learn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/a_learn build --build-base /home/charansc/ros2_ws2/build/a_learn/build install --record /home/charansc/ros2_ws2/build/a_learn/install.log --single-version-externally-managed install_data --force

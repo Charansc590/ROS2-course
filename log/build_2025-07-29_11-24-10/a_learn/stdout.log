@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing a_learn.egg-info/PKG-INFO
+writing dependency_links to a_learn.egg-info/dependency_links.txt
+writing entry points to a_learn.egg-info/entry_points.txt
+writing requirements to a_learn.egg-info/requires.txt
+writing top-level names to a_learn.egg-info/top_level.txt
+reading manifest file 'a_learn.egg-info/SOURCES.txt'
+writing manifest file 'a_learn.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/charansc/ros2_ws2/install/a_learn/lib/python3.10/site-packages/a-learn.egg-link (link to .)
+Installing para_test script to /home/charansc/ros2_ws2/install/a_learn/lib/a_learn
+
+Installed /home/charansc/ros2_ws2/build/a_learn
+running symlink_data
+symbolically linking /home/charansc/ros2_ws2/build/a_learn/resource/a_learn -> /home/charansc/ros2_ws2/install/a_learn/share/ament_index/resource_index/packages
+symbolically linking /home/charansc/ros2_ws2/build/a_learn/package.xml -> /home/charansc/ros2_ws2/install/a_learn/share/a_learn

@@ -1,0 +1,8 @@
+[console_scripts]
+para_test = a_learn.para_node:main
+pub_node = a_learn.my_first_node:main
+service_add = a_learn.service_test_add:main
+service_client = a_learn.add_service_client:main
+sub_node = a_learn.my_first_sub:main
+turtlesim_teleop = a_learn.turtlesim_teleop:main
+
