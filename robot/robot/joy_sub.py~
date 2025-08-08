@@ -6,7 +6,7 @@ from geometry_msgs.msg import Twist
 class JoyControl(Node):
     def __init__(self):
         super().__init__('joycontrol')
-        self.publisher = self.create_publisher(Twist,'/cmd_vel',10)
+        self.publisher = self.create_publisher(Twist,'turtle1/cmd_vel',10)
         self.joy_subcriber = self.create_subscription(Joy,'/joy',self.joy_callback,10)
         self.get_logger().info("Joystick Node Started")
  
