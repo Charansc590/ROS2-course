@@ -1,0 +1,4 @@
+[console_scripts]
+hw_pub = robot.hw_pub:main
+joy_sub = robot.joy_sub:main
+

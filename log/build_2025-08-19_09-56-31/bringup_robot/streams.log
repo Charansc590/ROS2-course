@@ -1,0 +1,49 @@
+[0.200s] Invoking command in '/home/charansc/ros2_ws2/src/build/bringup_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake /home/charansc/ros2_ws2/src/bringup_robot -DCMAKE_INSTALL_PREFIX=/home/charansc/ros2_ws2/src/install/bringup_robot
+[0.555s] -- The C compiler identification is GNU 11.4.0
+[0.556s] -- The CXX compiler identification is GNU 11.4.0
+[0.556s] -- Detecting C compiler ABI info
+[0.557s] -- Detecting C compiler ABI info - done
+[0.557s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.557s] -- Detecting C compile features
+[0.557s] -- Detecting C compile features - done
+[0.557s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.557s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.557s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.557s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.587s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.744s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.870s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.871s] -- Added test 'lint_cmake' to check CMake code style
+[0.872s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.874s] -- Added test 'xmllint' to check XML markup files
+[0.876s] -- Configuring done
+[0.879s] -- Generating done
+[0.881s] -- Build files have been written to: /home/charansc/ros2_ws2/src/build/bringup_robot
+[0.886s] Invoked command in '/home/charansc/ros2_ws2/src/build/bringup_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake /home/charansc/ros2_ws2/src/bringup_robot -DCMAKE_INSTALL_PREFIX=/home/charansc/ros2_ws2/src/install/bringup_robot
+[0.888s] Invoking command in '/home/charansc/ros2_ws2/src/build/bringup_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --build /home/charansc/ros2_ws2/src/build/bringup_robot -- -j16 -l16
+[0.931s] Invoked command in '/home/charansc/ros2_ws2/src/build/bringup_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --build /home/charansc/ros2_ws2/src/build/bringup_robot -- -j16 -l16
+[0.941s] Invoking command in '/home/charansc/ros2_ws2/src/build/bringup_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --install /home/charansc/ros2_ws2/src/build/bringup_robot
+[0.949s] -- Install configuration: ""
+[0.949s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/launch
+[0.949s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/launch/gazebo_robot.launch.xml
+[0.950s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/launch/sample.launch.py
+[0.950s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/world
+[0.950s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/world/sample_world.world
+[0.950s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/ament_index/resource_index/package_run_dependencies/bringup_robot
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/ament_index/resource_index/parent_prefix_path/bringup_robot
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/environment/ament_prefix_path.sh
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/environment/ament_prefix_path.dsv
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/environment/path.sh
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/environment/path.dsv
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/local_setup.bash
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/local_setup.sh
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/local_setup.zsh
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/local_setup.dsv
+[0.951s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.dsv
+[0.952s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/ament_index/resource_index/packages/bringup_robot
+[0.952s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/cmake/bringup_robotConfig.cmake
+[0.952s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/cmake/bringup_robotConfig-version.cmake
+[0.952s] -- Installing: /home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.xml
+[0.953s] Invoked command in '/home/charansc/ros2_ws2/src/build/bringup_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --install /home/charansc/ros2_ws2/src/build/bringup_robot

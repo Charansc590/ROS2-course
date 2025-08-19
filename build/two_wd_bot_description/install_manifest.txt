@@ -1,0 +1,15 @@
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/ament_index/resource_index/package_run_dependencies/two_wd_bot_description
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/ament_index/resource_index/parent_prefix_path/two_wd_bot_description
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/environment/ament_prefix_path.sh
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/environment/ament_prefix_path.dsv
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/environment/path.sh
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/environment/path.dsv
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/local_setup.bash
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/local_setup.sh
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/local_setup.zsh
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/local_setup.dsv
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.dsv
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/ament_index/resource_index/packages/two_wd_bot_description
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/cmake/two_wd_bot_descriptionConfig.cmake
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/cmake/two_wd_bot_descriptionConfig-version.cmake
+/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.xml

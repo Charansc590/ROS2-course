@@ -1,0 +1,33 @@
+[0.836s] Invoking command in '/home/charansc/ros2_ws2/src/omni_bot': PYTHONPATH=/home/charansc/ros2_ws2/src/build/omni_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/omni_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/omni_bot build --build-base /home/charansc/ros2_ws2/src/build/omni_bot/build install --record /home/charansc/ros2_ws2/src/build/omni_bot/install.log --single-version-externally-managed install_data
+[1.041s] running egg_info
+[1.041s] creating ../build/omni_bot/omni_bot.egg-info
+[1.041s] writing ../build/omni_bot/omni_bot.egg-info/PKG-INFO
+[1.041s] writing dependency_links to ../build/omni_bot/omni_bot.egg-info/dependency_links.txt
+[1.042s] writing entry points to ../build/omni_bot/omni_bot.egg-info/entry_points.txt
+[1.042s] writing requirements to ../build/omni_bot/omni_bot.egg-info/requires.txt
+[1.042s] writing top-level names to ../build/omni_bot/omni_bot.egg-info/top_level.txt
+[1.042s] writing manifest file '../build/omni_bot/omni_bot.egg-info/SOURCES.txt'
+[1.043s] reading manifest file '../build/omni_bot/omni_bot.egg-info/SOURCES.txt'
+[1.044s] writing manifest file '../build/omni_bot/omni_bot.egg-info/SOURCES.txt'
+[1.044s] running build
+[1.044s] running build_py
+[1.044s] creating /home/charansc/ros2_ws2/src/build/omni_bot/build
+[1.044s] creating /home/charansc/ros2_ws2/src/build/omni_bot/build/lib
+[1.044s] creating /home/charansc/ros2_ws2/src/build/omni_bot/build/lib/omni_bot
+[1.044s] copying omni_bot/__init__.py -> /home/charansc/ros2_ws2/src/build/omni_bot/build/lib/omni_bot
+[1.044s] running install
+[1.045s] running install_lib
+[1.045s] creating /home/charansc/ros2_ws2/src/install/omni_bot/lib/python3.10/site-packages/omni_bot
+[1.045s] copying /home/charansc/ros2_ws2/src/build/omni_bot/build/lib/omni_bot/__init__.py -> /home/charansc/ros2_ws2/src/install/omni_bot/lib/python3.10/site-packages/omni_bot
+[1.045s] byte-compiling /home/charansc/ros2_ws2/src/install/omni_bot/lib/python3.10/site-packages/omni_bot/__init__.py to __init__.cpython-310.pyc
+[1.046s] running install_data
+[1.046s] creating /home/charansc/ros2_ws2/src/install/omni_bot/share/ament_index
+[1.046s] creating /home/charansc/ros2_ws2/src/install/omni_bot/share/ament_index/resource_index
+[1.046s] creating /home/charansc/ros2_ws2/src/install/omni_bot/share/ament_index/resource_index/packages
+[1.046s] copying resource/omni_bot -> /home/charansc/ros2_ws2/src/install/omni_bot/share/ament_index/resource_index/packages
+[1.046s] copying package.xml -> /home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot
+[1.046s] running install_egg_info
+[1.047s] Copying ../build/omni_bot/omni_bot.egg-info to /home/charansc/ros2_ws2/src/install/omni_bot/lib/python3.10/site-packages/omni_bot-0.0.0-py3.10.egg-info
+[1.048s] running install_scripts
+[1.066s] writing list of installed files to '/home/charansc/ros2_ws2/src/build/omni_bot/install.log'
+[1.091s] Invoked command in '/home/charansc/ros2_ws2/src/omni_bot' returned '0': PYTHONPATH=/home/charansc/ros2_ws2/src/build/omni_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/omni_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/omni_bot build --build-base /home/charansc/ros2_ws2/src/build/omni_bot/build install --record /home/charansc/ros2_ws2/src/build/omni_bot/install.log --single-version-externally-managed install_data

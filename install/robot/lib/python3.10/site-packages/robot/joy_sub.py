@@ -1,0 +1,52 @@
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import Joy
+from geometry_msgs.msg import Twist
+ 
+class JoyControl(Node):
+    def __init__(self):
+        super().__init__('joycontrol')
+        self.publisher = self.create_publisher(Twist,'/cmd_vel',10)
+        self.joy_subcriber = self.create_subscription(Joy,'/joy',self.joy_callback,10)
+        self.get_logger().info("Joystick Node Started")
+ 
+    def joy_callback(self, joy_msg):
+ 
+        twist= Twist()
+ 
+        twist.linear.x= joy_msg.axes[1]
+        twist.angular.z= joy_msg.axes[0]
+        twist.linear.y=float(joy_msg.buttons[0])
+ 
+ 
+        if joy_msg.buttons[0]==1:
+            twist.linear.x *=2
+            self.get_logger().info("A")
+ 
+        
+        if joy_msg.buttons[1]==1:
+            twist.angular.z=0
+            twist.linear.x=0
+            self.get_logger().info("B")
+ 
+        if joy_msg.buttons[2]==1:
+            twist.linear.x = -1.0
+            self.get_logger().info("X")
+ 
+        if joy_msg.buttons[3]==1:
+            twist.angular.z = 1.0
+            self.get_logger().info("Y")
+        self.get_logger().info(f"{twist.linear.x} {twist.angular.z}")
+ 
+ 
+        self.publisher.publish(twist)
+ 
+def main(args=None):
+    rclpy.init(args=args)
+    node = JoyControl()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__=='__main__':
+    main()

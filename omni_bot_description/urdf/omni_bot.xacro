@@ -1,0 +1,274 @@
+<?xml version="1.0" ?>
+<robot name="omni_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="materials.xacro" />
+<xacro:include filename="omni_bot.trans" />
+<xacro:include filename="omni_bot.gazebo" />
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0 -8.775547676189062e-18 0.06149999999999999" rpy="0 0 0"/>
+    <mass value="0.25424101977594304"/>
+    <inertia ixx="0.000308" iyy="0.000163" izz="0.00047" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Component4_1">
+  <inertial>
+    <origin xyz="0.039999999999999994 -0.045 0.07999999999999999" rpy="0 0 0"/>
+    <mass value="0.006798299419707871"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Component5_1">
+  <inertial>
+    <origin xyz="-0.04 -0.045 0.08" rpy="0 0 0"/>
+    <mass value="0.00679829941970783"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Component2_1">
+  <inertial>
+    <origin xyz="-0.040000000000000015 0.045 0.08" rpy="0 0 0"/>
+    <mass value="0.006798299419707869"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Component3_1">
+  <inertial>
+    <origin xyz="0.04 0.045 0.08" rpy="0 0 0"/>
+    <mass value="0.006798299419707891"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Component6_1">
+  <inertial>
+    <origin xyz="-0.04000000000000001 0.045 0.0915" rpy="0 0 0"/>
+    <mass value="0.31258454204136765"/>
+    <inertia ixx="0.00033" iyy="0.00033" izz="0.00066" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.04 0.045 -0.013" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.04 0.045 -0.013" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Component6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="motor_v1_1">
+  <inertial>
+    <origin xyz="0.030133799620471084 0.018891947266950343 -0.010991312736714436" rpy="0 0 0"/>
+    <mass value="0.18087096282543216"/>
+    <inertia ixx="6.1e-05" iyy="1.2e-05" izz="6e-05" ixy="-1e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.06" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/motor_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.06" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/motor_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_motor_1">
+  <inertial>
+    <origin xyz="-0.02986620035882674 0.018891947084277598 -0.01100868853954285" rpy="0 0 0"/>
+    <mass value="0.1808709618205079"/>
+    <inertia ixx="6.1e-05" iyy="1.2e-05" izz="6e-05" ixy="-1e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.06" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/left_motor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.06" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/left_motor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Wheel_left_1">
+  <inertial>
+    <origin xyz="0.011127088813369782 3.539970000780105e-08 -3.9179267656563876e-08" rpy="0 0 0"/>
+    <mass value="0.1680179461346143"/>
+    <inertia ixx="0.000114" iyy="6.8e-05" izz="6.8e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.049 -0.00075 -0.049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Wheel_left_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.049 -0.00075 -0.049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Wheel_left_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Wheel_v1_1">
+  <inertial>
+    <origin xyz="-0.011127088813369719 3.539970000595791e-08 3.91792676288083e-08" rpy="0 0 0"/>
+    <mass value="0.1680179461346143"/>
+    <inertia ixx="0.000114" iyy="6.8e-05" izz="6.8e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.049 -0.00075 -0.049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Wheel_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.049 -0.00075 -0.049" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://omni_bot_description/meshes/Wheel_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid 1" type="fixed">
+  <origin xyz="0.0 0.0 0.003" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Component4_1"/>
+</joint>
+
+<joint name="Rigid 2" type="fixed">
+  <origin xyz="0.0 0.0 0.003" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Component5_1"/>
+</joint>
+
+<joint name="Rigid 3" type="fixed">
+  <origin xyz="0.0 0.0 0.003" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Component2_1"/>
+</joint>
+
+<joint name="Rigid 4" type="fixed">
+  <origin xyz="0.0 0.0 0.003" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Component3_1"/>
+</joint>
+
+<joint name="Rigid 5" type="fixed">
+  <origin xyz="0.04 -0.045 0.01" rpy="0 0 0"/>
+  <parent link="Component4_1"/>
+  <child link="Component6_1"/>
+</joint>
+
+<joint name="motor1" type="fixed">
+  <origin xyz="0.0 0.0 0.06" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="motor_v1_1"/>
+</joint>
+
+<joint name="motor2" type="fixed">
+  <origin xyz="0.0 0.0 0.06" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_motor_1"/>
+</joint>
+
+<joint name="Revolute 8" type="continuous">
+  <origin xyz="0.049 0.00075 -0.011" rpy="0 0 0"/>
+  <parent link="motor_v1_1"/>
+  <child link="Wheel_left_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Revolute 9" type="continuous">
+  <origin xyz="-0.049 0.00075 -0.011" rpy="0 0 0"/>
+  <parent link="left_motor_1"/>
+  <child link="Wheel_v1_1"/>
+  <axis xyz="1.0 -0.0 0.0"/>
+</joint>
+
+</robot>

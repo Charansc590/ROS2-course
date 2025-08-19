@@ -1,0 +1,57 @@
+[1.023s] Invoking command in '/home/charansc/ros2_ws2/src/a_learn': PYTHONPATH=/home/charansc/ros2_ws2/src/build/a_learn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/a_learn build --build-base /home/charansc/ros2_ws2/src/build/a_learn/build install --record /home/charansc/ros2_ws2/src/build/a_learn/install.log --single-version-externally-managed install_data
+[1.237s] running egg_info
+[1.237s] creating ../build/a_learn/a_learn.egg-info
+[1.237s] writing ../build/a_learn/a_learn.egg-info/PKG-INFO
+[1.237s] writing dependency_links to ../build/a_learn/a_learn.egg-info/dependency_links.txt
+[1.237s] writing entry points to ../build/a_learn/a_learn.egg-info/entry_points.txt
+[1.237s] writing requirements to ../build/a_learn/a_learn.egg-info/requires.txt
+[1.237s] writing top-level names to ../build/a_learn/a_learn.egg-info/top_level.txt
+[1.238s] writing manifest file '../build/a_learn/a_learn.egg-info/SOURCES.txt'
+[1.239s] reading manifest file '../build/a_learn/a_learn.egg-info/SOURCES.txt'
+[1.239s] writing manifest file '../build/a_learn/a_learn.egg-info/SOURCES.txt'
+[1.239s] running build
+[1.240s] running build_py
+[1.240s] creating /home/charansc/ros2_ws2/src/build/a_learn/build
+[1.240s] creating /home/charansc/ros2_ws2/src/build/a_learn/build/lib
+[1.240s] creating /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn
+[1.240s] copying a_learn/service_test_add.py -> /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn
+[1.240s] copying a_learn/my_first_node.py -> /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn
+[1.240s] copying a_learn/turtlesim_teleop.py -> /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn
+[1.240s] copying a_learn/add_service_client.py -> /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn
+[1.240s] copying a_learn/my_first_sub.py -> /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn
+[1.240s] copying a_learn/para_node.py -> /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn
+[1.240s] copying a_learn/__init__.py -> /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn
+[1.240s] running install
+[1.240s] running install_lib
+[1.241s] creating /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn
+[1.241s] copying /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn/service_test_add.py -> /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn
+[1.241s] copying /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn/my_first_node.py -> /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn
+[1.241s] copying /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn/turtlesim_teleop.py -> /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn
+[1.241s] copying /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn/add_service_client.py -> /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn
+[1.241s] copying /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn/my_first_sub.py -> /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn
+[1.241s] copying /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn/para_node.py -> /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn
+[1.241s] copying /home/charansc/ros2_ws2/src/build/a_learn/build/lib/a_learn/__init__.py -> /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn
+[1.242s] byte-compiling /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn/service_test_add.py to service_test_add.cpython-310.pyc
+[1.242s] byte-compiling /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn/my_first_node.py to my_first_node.cpython-310.pyc
+[1.242s] byte-compiling /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn/turtlesim_teleop.py to turtlesim_teleop.cpython-310.pyc
+[1.242s] byte-compiling /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn/add_service_client.py to add_service_client.cpython-310.pyc
+[1.243s] byte-compiling /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn/my_first_sub.py to my_first_sub.cpython-310.pyc
+[1.243s] byte-compiling /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn/para_node.py to para_node.cpython-310.pyc
+[1.243s] byte-compiling /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn/__init__.py to __init__.cpython-310.pyc
+[1.243s] running install_data
+[1.243s] creating /home/charansc/ros2_ws2/src/install/a_learn/share/ament_index
+[1.243s] creating /home/charansc/ros2_ws2/src/install/a_learn/share/ament_index/resource_index
+[1.243s] creating /home/charansc/ros2_ws2/src/install/a_learn/share/ament_index/resource_index/packages
+[1.243s] copying resource/a_learn -> /home/charansc/ros2_ws2/src/install/a_learn/share/ament_index/resource_index/packages
+[1.243s] copying package.xml -> /home/charansc/ros2_ws2/src/install/a_learn/share/a_learn
+[1.243s] running install_egg_info
+[1.245s] Copying ../build/a_learn/a_learn.egg-info to /home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages/a_learn-0.0.0-py3.10.egg-info
+[1.245s] running install_scripts
+[1.260s] Installing para_test script to /home/charansc/ros2_ws2/src/install/a_learn/lib/a_learn
+[1.260s] Installing pub_node script to /home/charansc/ros2_ws2/src/install/a_learn/lib/a_learn
+[1.260s] Installing service_add script to /home/charansc/ros2_ws2/src/install/a_learn/lib/a_learn
+[1.261s] Installing service_client script to /home/charansc/ros2_ws2/src/install/a_learn/lib/a_learn
+[1.261s] Installing sub_node script to /home/charansc/ros2_ws2/src/install/a_learn/lib/a_learn
+[1.261s] Installing turtlesim_teleop script to /home/charansc/ros2_ws2/src/install/a_learn/lib/a_learn
+[1.261s] writing list of installed files to '/home/charansc/ros2_ws2/src/build/a_learn/install.log'
+[1.287s] Invoked command in '/home/charansc/ros2_ws2/src/a_learn' returned '0': PYTHONPATH=/home/charansc/ros2_ws2/src/build/a_learn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/a_learn build --build-base /home/charansc/ros2_ws2/src/build/a_learn/build install --record /home/charansc/ros2_ws2/src/build/a_learn/install.log --single-version-externally-managed install_data

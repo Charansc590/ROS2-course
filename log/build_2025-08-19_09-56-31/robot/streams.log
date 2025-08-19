@@ -1,0 +1,41 @@
+[0.840s] Invoking command in '/home/charansc/ros2_ws2/src/robot': PYTHONPATH=/home/charansc/ros2_ws2/src/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot build --build-base /home/charansc/ros2_ws2/src/build/robot/build install --record /home/charansc/ros2_ws2/src/build/robot/install.log --single-version-externally-managed install_data
+[1.042s] running egg_info
+[1.043s] creating ../build/robot/robot.egg-info
+[1.043s] writing ../build/robot/robot.egg-info/PKG-INFO
+[1.043s] writing dependency_links to ../build/robot/robot.egg-info/dependency_links.txt
+[1.043s] writing entry points to ../build/robot/robot.egg-info/entry_points.txt
+[1.043s] writing requirements to ../build/robot/robot.egg-info/requires.txt
+[1.043s] writing top-level names to ../build/robot/robot.egg-info/top_level.txt
+[1.043s] writing manifest file '../build/robot/robot.egg-info/SOURCES.txt'
+[1.045s] reading manifest file '../build/robot/robot.egg-info/SOURCES.txt'
+[1.045s] writing manifest file '../build/robot/robot.egg-info/SOURCES.txt'
+[1.045s] running build
+[1.045s] running build_py
+[1.045s] creating /home/charansc/ros2_ws2/src/build/robot/build
+[1.045s] creating /home/charansc/ros2_ws2/src/build/robot/build/lib
+[1.045s] creating /home/charansc/ros2_ws2/src/build/robot/build/lib/robot
+[1.045s] copying robot/hw_pub.py -> /home/charansc/ros2_ws2/src/build/robot/build/lib/robot
+[1.045s] copying robot/joy_sub.py -> /home/charansc/ros2_ws2/src/build/robot/build/lib/robot
+[1.045s] copying robot/__init__.py -> /home/charansc/ros2_ws2/src/build/robot/build/lib/robot
+[1.046s] running install
+[1.046s] running install_lib
+[1.046s] creating /home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages/robot
+[1.046s] copying /home/charansc/ros2_ws2/src/build/robot/build/lib/robot/hw_pub.py -> /home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages/robot
+[1.046s] copying /home/charansc/ros2_ws2/src/build/robot/build/lib/robot/joy_sub.py -> /home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages/robot
+[1.046s] copying /home/charansc/ros2_ws2/src/build/robot/build/lib/robot/__init__.py -> /home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages/robot
+[1.047s] byte-compiling /home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages/robot/hw_pub.py to hw_pub.cpython-310.pyc
+[1.048s] byte-compiling /home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages/robot/joy_sub.py to joy_sub.cpython-310.pyc
+[1.048s] byte-compiling /home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc
+[1.048s] running install_data
+[1.048s] creating /home/charansc/ros2_ws2/src/install/robot/share/ament_index
+[1.048s] creating /home/charansc/ros2_ws2/src/install/robot/share/ament_index/resource_index
+[1.048s] creating /home/charansc/ros2_ws2/src/install/robot/share/ament_index/resource_index/packages
+[1.048s] copying resource/robot -> /home/charansc/ros2_ws2/src/install/robot/share/ament_index/resource_index/packages
+[1.048s] copying package.xml -> /home/charansc/ros2_ws2/src/install/robot/share/robot
+[1.048s] running install_egg_info
+[1.050s] Copying ../build/robot/robot.egg-info to /home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[1.050s] running install_scripts
+[1.068s] Installing hw_pub script to /home/charansc/ros2_ws2/src/install/robot/lib/robot
+[1.068s] Installing joy_sub script to /home/charansc/ros2_ws2/src/install/robot/lib/robot
+[1.069s] writing list of installed files to '/home/charansc/ros2_ws2/src/build/robot/install.log'
+[1.093s] Invoked command in '/home/charansc/ros2_ws2/src/robot' returned '0': PYTHONPATH=/home/charansc/ros2_ws2/src/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot build --build-base /home/charansc/ros2_ws2/src/build/robot/build install --record /home/charansc/ros2_ws2/src/build/robot/install.log --single-version-externally-managed install_data

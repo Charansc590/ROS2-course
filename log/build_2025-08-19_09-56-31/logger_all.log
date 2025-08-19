@@ -1,0 +1,400 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.073s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7caeed5126e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7caeed5120e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7caeed5120e0>>)
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.183s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/charansc/ros2_ws2/src'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(a_learn) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(a_learn) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(a_learn) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(a_learn) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(a_learn) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(a_learn) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(a_learn) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(a_learn) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(a_learn) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'a_learn' with type 'ros.ament_python' and name 'a_learn'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(bringup_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(bringup_robot) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(bringup_robot) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(bringup_robot) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(bringup_robot) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(bringup_robot) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(bringup_robot) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(bringup_robot) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(bringup_robot) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'bringup_robot' with type 'ros.ament_cmake' and name 'bringup_robot'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(omni_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(omni_bot) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(omni_bot) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(omni_bot) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(omni_bot) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(omni_bot) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(omni_bot) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(omni_bot) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(omni_bot) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'omni_bot' with type 'ros.ament_python' and name 'omni_bot'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'robot' with type 'ros.ament_python' and name 'robot'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(robot_description) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(two_wd_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(two_wd_bot_description) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(two_wd_bot_description) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(two_wd_bot_description) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(two_wd_bot_description) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(two_wd_bot_description) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(two_wd_bot_description) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(two_wd_bot_description) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(two_wd_bot_description) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'two_wd_bot_description' with type 'ros.ament_cmake' and name 'two_wd_bot_description'
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'a_learn' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'a_learn' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'a_learn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'a_learn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'a_learn' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'a_learn' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'a_learn' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'a_learn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'a_learn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'a_learn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charansc/ros2_ws2/src/build/a_learn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charansc/ros2_ws2/src/install/a_learn', 'merge_install': False, 'path': '/home/charansc/ros2_ws2/src/a_learn', 'symlink_install': False, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'bringup_robot' build argument 'cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'bringup_robot' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'bringup_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'bringup_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'bringup_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'bringup_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'bringup_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'bringup_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'bringup_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'bringup_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charansc/ros2_ws2/src/build/bringup_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charansc/ros2_ws2/src/install/bringup_robot', 'merge_install': False, 'path': '/home/charansc/ros2_ws2/src/bringup_robot', 'symlink_install': False, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omni_bot' build argument 'cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omni_bot' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omni_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omni_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omni_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omni_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omni_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omni_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omni_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'omni_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charansc/ros2_ws2/src/build/omni_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charansc/ros2_ws2/src/install/omni_bot', 'merge_install': False, 'path': '/home/charansc/ros2_ws2/src/omni_bot', 'symlink_install': False, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charansc/ros2_ws2/src/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charansc/ros2_ws2/src/install/robot', 'merge_install': False, 'path': '/home/charansc/ros2_ws2/src/robot', 'symlink_install': False, 'test_result_base': None}
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.219s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charansc/ros2_ws2/src/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charansc/ros2_ws2/src/install/robot_description', 'merge_install': False, 'path': '/home/charansc/ros2_ws2/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'two_wd_bot_description' build argument 'cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'two_wd_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'two_wd_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'two_wd_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'two_wd_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'two_wd_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'two_wd_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'two_wd_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'two_wd_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.219s] DEBUG:colcon.colcon_core.verb:Building package 'two_wd_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charansc/ros2_ws2/src/build/two_wd_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charansc/ros2_ws2/src/install/two_wd_bot_description', 'merge_install': False, 'path': '/home/charansc/ros2_ws2/src/two_wd_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.219s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.220s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/charansc/ros2_ws2/src/a_learn' with build type 'ament_python'
+[0.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('a_learn', 'ament_prefix_path')
+[0.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/hook/ament_prefix_path.ps1'
+[0.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/hook/ament_prefix_path.dsv'
+[0.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/hook/ament_prefix_path.sh'
+[0.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.228s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charansc/ros2_ws2/src/bringup_robot' with build type 'ament_cmake'
+[0.228s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charansc/ros2_ws2/src/bringup_robot'
+[0.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.232s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/charansc/ros2_ws2/src/omni_bot' with build type 'ament_python'
+[0.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_bot', 'ament_prefix_path')
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/hook/ament_prefix_path.ps1'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/hook/ament_prefix_path.dsv'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/hook/ament_prefix_path.sh'
+[0.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/charansc/ros2_ws2/src/robot' with build type 'ament_python'
+[0.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'ament_prefix_path')
+[0.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/robot/share/robot/hook/ament_prefix_path.ps1'
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/robot/share/robot/hook/ament_prefix_path.dsv'
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/robot/share/robot/hook/ament_prefix_path.sh'
+[0.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charansc/ros2_ws2/src/robot_description' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charansc/ros2_ws2/src/robot_description'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/charansc/ros2_ws2/src/two_wd_bot_description' with build type 'ament_cmake'
+[0.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/charansc/ros2_ws2/src/two_wd_bot_description'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/charansc/ros2_ws2/src/a_learn'
+[0.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/build/bringup_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake /home/charansc/ros2_ws2/src/bringup_robot -DCMAKE_INSTALL_PREFIX=/home/charansc/ros2_ws2/src/install/bringup_robot
+[0.599s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/charansc/ros2_ws2/src/omni_bot'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.776s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/charansc/ros2_ws2/src/robot'
+[0.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake /home/charansc/ros2_ws2/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/charansc/ros2_ws2/src/install/robot_description
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/build/two_wd_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake /home/charansc/ros2_ws2/src/two_wd_bot_description -DCMAKE_INSTALL_PREFIX=/home/charansc/ros2_ws2/src/install/two_wd_bot_description
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/omni_bot': PYTHONPATH=/home/charansc/ros2_ws2/src/build/omni_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/omni_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/omni_bot build --build-base /home/charansc/ros2_ws2/src/build/omni_bot/build install --record /home/charansc/ros2_ws2/src/build/omni_bot/install.log --single-version-externally-managed install_data
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/robot': PYTHONPATH=/home/charansc/ros2_ws2/src/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot build --build-base /home/charansc/ros2_ws2/src/build/robot/build install --record /home/charansc/ros2_ws2/src/build/robot/install.log --single-version-externally-managed install_data
+[1.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/build/bringup_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake /home/charansc/ros2_ws2/src/bringup_robot -DCMAKE_INSTALL_PREFIX=/home/charansc/ros2_ws2/src/install/bringup_robot
+[1.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/build/bringup_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --build /home/charansc/ros2_ws2/src/build/bringup_robot -- -j16 -l16
+[1.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/build/bringup_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --build /home/charansc/ros2_ws2/src/build/bringup_robot -- -j16 -l16
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/build/bringup_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --install /home/charansc/ros2_ws2/src/build/bringup_robot
+[1.181s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup_robot)
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/build/bringup_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --install /home/charansc/ros2_ws2/src/build/bringup_robot
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot' for CMake module files
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot' for CMake config files
+[1.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup_robot', 'cmake_prefix_path')
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/hook/cmake_prefix_path.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/hook/cmake_prefix_path.dsv'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/hook/cmake_prefix_path.sh'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot/bin'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot/lib/pkgconfig/bringup_robot.pc'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot/lib/python3.10/site-packages'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot/bin'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.ps1'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.dsv'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.sh'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.bash'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.zsh'
+[1.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charansc/ros2_ws2/src/install/bringup_robot/share/colcon-core/packages/bringup_robot)
+[1.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup_robot)
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot' for CMake module files
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot' for CMake config files
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup_robot', 'cmake_prefix_path')
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/hook/cmake_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/hook/cmake_prefix_path.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/hook/cmake_prefix_path.sh'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot/bin'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot/lib/pkgconfig/bringup_robot.pc'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot/lib/python3.10/site-packages'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/bringup_robot/bin'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.dsv'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.sh'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/bringup_robot/share/bringup_robot/package.zsh'
+[1.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charansc/ros2_ws2/src/install/bringup_robot/share/colcon-core/packages/bringup_robot)
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/a_learn': PYTHONPATH=/home/charansc/ros2_ws2/src/build/a_learn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/a_learn build --build-base /home/charansc/ros2_ws2/src/build/a_learn/build install --record /home/charansc/ros2_ws2/src/build/a_learn/install.log --single-version-externally-managed install_data
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/omni_bot' for CMake module files
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/omni_bot' returned '0': PYTHONPATH=/home/charansc/ros2_ws2/src/build/omni_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/omni_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/omni_bot build --build-base /home/charansc/ros2_ws2/src/build/omni_bot/build install --record /home/charansc/ros2_ws2/src/build/omni_bot/install.log --single-version-externally-managed install_data
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/omni_bot' for CMake config files
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/omni_bot/lib'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/omni_bot/bin'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/omni_bot/lib/pkgconfig/omni_bot.pc'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/omni_bot/lib/python3.10/site-packages'
+[1.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_bot', 'pythonpath')
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/hook/pythonpath.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/hook/pythonpath.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/hook/pythonpath.sh'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/omni_bot/bin'
+[1.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_bot)
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/package.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/package.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/package.sh'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/package.bash'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/omni_bot/share/omni_bot/package.zsh'
+[1.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charansc/ros2_ws2/src/install/omni_bot/share/colcon-core/packages/omni_bot)
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot' for CMake module files
+[1.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/robot' returned '0': PYTHONPATH=/home/charansc/ros2_ws2/src/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot build --build-base /home/charansc/ros2_ws2/src/build/robot/build install --record /home/charansc/ros2_ws2/src/build/robot/install.log --single-version-externally-managed install_data
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot' for CMake config files
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot/lib'
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot/bin'
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot/lib/pkgconfig/robot.pc'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot/lib/python3.10/site-packages'
+[1.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath')
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/robot/share/robot/hook/pythonpath.ps1'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/robot/share/robot/hook/pythonpath.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/robot/share/robot/hook/pythonpath.sh'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot/bin'
+[1.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot/share/robot/package.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charansc/ros2_ws2/src/install/robot/share/robot/package.dsv'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot/share/robot/package.sh'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot/share/robot/package.bash'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot/share/robot/package.zsh'
+[1.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charansc/ros2_ws2/src/install/robot/share/colcon-core/packages/robot)
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake /home/charansc/ros2_ws2/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/charansc/ros2_ws2/src/install/robot_description
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --build /home/charansc/ros2_ws2/src/build/robot_description -- -j16 -l16
+[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/build/two_wd_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake /home/charansc/ros2_ws2/src/two_wd_bot_description -DCMAKE_INSTALL_PREFIX=/home/charansc/ros2_ws2/src/install/two_wd_bot_description
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/build/two_wd_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --build /home/charansc/ros2_ws2/src/build/two_wd_bot_description -- -j16 -l16
+[1.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --build /home/charansc/ros2_ws2/src/build/robot_description -- -j16 -l16
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --install /home/charansc/ros2_ws2/src/build/robot_description
+[1.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description' for CMake module files
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --install /home/charansc/ros2_ws2/src/build/robot_description
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description' for CMake config files
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description/bin'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description/lib/python3.10/site-packages'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description/bin'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.sh'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.bash'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.zsh'
+[1.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charansc/ros2_ws2/src/install/robot_description/share/colcon-core/packages/robot_description)
+[1.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description' for CMake module files
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description' for CMake config files
+[1.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description/lib/python3.10/site-packages'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/robot_description/bin'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.sh'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.bash'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/robot_description/share/robot_description/package.zsh'
+[1.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charansc/ros2_ws2/src/install/robot_description/share/colcon-core/packages/robot_description)
+[1.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/build/two_wd_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --build /home/charansc/ros2_ws2/src/build/two_wd_bot_description -- -j16 -l16
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charansc/ros2_ws2/src/build/two_wd_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --install /home/charansc/ros2_ws2/src/build/two_wd_bot_description
+[1.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_wd_bot_description)
+[1.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/build/two_wd_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charansc/ros2_ws2/install/robot:/home/charansc/ros2_ws2/install/a_learn:/home/charansc/cognipilot/cranium/install/b3rb_ros_aim_india:/home/charansc/cognipilot/cranium/src/NXP_AIM_INDIA_2025/install/b3rb_ros_aim_india:/home/charansc/install/b3rb_ros_aim_india:/opt/ros/humble /usr/bin/cmake --install /home/charansc/ros2_ws2/src/build/two_wd_bot_description
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description' for CMake module files
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description' for CMake config files
+[1.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_wd_bot_description', 'cmake_prefix_path')
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/hook/cmake_prefix_path.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/hook/cmake_prefix_path.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/hook/cmake_prefix_path.sh'
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/bin'
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/lib/pkgconfig/two_wd_bot_description.pc'
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/lib/python3.10/site-packages'
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/bin'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.dsv'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.sh'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.bash'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.zsh'
+[1.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/colcon-core/packages/two_wd_bot_description)
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_wd_bot_description)
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description' for CMake module files
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description' for CMake config files
+[1.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_wd_bot_description', 'cmake_prefix_path')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/hook/cmake_prefix_path.ps1'
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/hook/cmake_prefix_path.dsv'
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/hook/cmake_prefix_path.sh'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/bin'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/lib/pkgconfig/two_wd_bot_description.pc'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/lib/python3.10/site-packages'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/bin'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.ps1'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.dsv'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.sh'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.bash'
+[1.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/two_wd_bot_description/package.zsh'
+[1.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charansc/ros2_ws2/src/install/two_wd_bot_description/share/colcon-core/packages/two_wd_bot_description)
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/a_learn' for CMake module files
+[1.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charansc/ros2_ws2/src/a_learn' returned '0': PYTHONPATH=/home/charansc/ros2_ws2/src/build/a_learn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/a_learn build --build-base /home/charansc/ros2_ws2/src/build/a_learn/build install --record /home/charansc/ros2_ws2/src/build/a_learn/install.log --single-version-externally-managed install_data
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/a_learn' for CMake config files
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/a_learn/lib'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/a_learn/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/a_learn/lib/pkgconfig/a_learn.pc'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/a_learn/lib/python3.10/site-packages'
+[1.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('a_learn', 'pythonpath')
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/hook/pythonpath.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/hook/pythonpath.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/hook/pythonpath.sh'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/charansc/ros2_ws2/src/install/a_learn/bin'
+[1.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(a_learn)
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/package.ps1'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/package.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/package.sh'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/package.bash'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/charansc/ros2_ws2/src/install/a_learn/share/a_learn/package.zsh'
+[1.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charansc/ros2_ws2/src/install/a_learn/share/colcon-core/packages/a_learn)
+[1.511s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.512s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.512s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.512s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.518s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.532s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.533s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charansc/ros2_ws2/src/install/local_setup.ps1'
+[1.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/charansc/ros2_ws2/src/install/_local_setup_util_ps1.py'
+[1.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charansc/ros2_ws2/src/install/setup.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charansc/ros2_ws2/src/install/local_setup.sh'
+[1.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/charansc/ros2_ws2/src/install/_local_setup_util_sh.py'
+[1.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charansc/ros2_ws2/src/install/setup.sh'
+[1.541s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charansc/ros2_ws2/src/install/local_setup.bash'
+[1.542s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charansc/ros2_ws2/src/install/setup.bash'
+[1.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charansc/ros2_ws2/src/install/local_setup.zsh'
+[1.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charansc/ros2_ws2/src/install/setup.zsh'
